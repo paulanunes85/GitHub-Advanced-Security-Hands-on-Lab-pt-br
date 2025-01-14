@@ -1,4 +1,8 @@
-# Laboratório Prático de Segurança Avançada do GitHub
+<h1 align="center">Laboratório Prático de GitHub Advanced Security</h1>
+<h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5>
+
+## O que é o GitHub Advanced Security?
+
 O GitHub Advanced Security (GHAS) é uma solução de teste de segurança de aplicativos voltada para desenvolvedores que traz as capacidades de segurança de classe mundial do GitHub para repositórios públicos e privados. A maioria dos recursos do GitHub Advanced Security são gratuitos para repositórios públicos, mas exigem uma licença do GitHub Advanced Security para repositórios privados. São necessários apenas alguns cliques para começar. Logo de cara, você se beneficiará de capacidades de detecção e remediação altamente curadas, criadas por alguns dos melhores engenheiros de segurança do mundo para garantir que seu código e cadeia de suprimentos de software sejam o mais seguros possível. É totalmente automatizado, então, uma vez habilitado, você não precisa se lembrar de executar testes do GHAS ou esperar por uma revisão de segurança antes de fazer o merge.
 
 Neste laboratório, você usará o GHAS como um único desenvolvedor aproveitando essas ferramentas de nível profissional que estão disponíveis gratuitamente para qualquer pessoa que use o GitHub.com ao trabalhar em seu código em público. Além disso, você usará o GitHub Codespaces como seu IDE de desenvolvimento na nuvem, então você só precisará de um navegador web moderno.
@@ -7,6 +11,7 @@ Neste laboratório, você usará o GHAS como um único desenvolvedor aproveitand
 Para completar este laboratório, você só precisa de uma conta válida no GitHub.com e um navegador web moderno (navegadores baseados em Chromium, como Microsoft Edge ou Google Chrome, são [preferidos para acessar o GitHub Codespaces](https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-github-codespaces-clients#troubleshooting-the-visual-studio-code-web-client)).
 
 ## Exercício 1
+
 Para começar, você obterá o código de exemplo e "[fará um fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)" em um novo repositório em sua conta pessoal no GitHub.com.
 
 1. Navegue até [https://github.com](https://github.com) e faça login em sua conta pessoal.
@@ -24,6 +29,7 @@ Para começar, você obterá o código de exemplo e "[fará um fork](https://doc
 Agora você tem uma cópia do código de exemplo e pode continuar configurando o GitHub Advanced Security (GHAS).
 
 ## Exercício 2
+
 Agora, você configurará o GHAS em seu repositório recém-forkado.
 
 1. Em sua cópia forkada do repositório de exemplo, clique no botão **Settings**.
@@ -46,6 +52,7 @@ Agora, você configurará o GHAS em seu repositório recém-forkado.
 Com apenas alguns cliques, você ativou alguns recursos do GHAS. Avance para o próximo exercício para ver os resultados.
 
 ## Exercício 3
+
 Você examinará os resultados de habilitar o Dependabot e tentará algumas coisas rápidas para tornar seu código mais seguro usando o GitHub Codespaces.
 
 1. Na página inicial do **seu** repositório, clique no botão verde **<> Code**.
@@ -97,6 +104,7 @@ Você examinará os resultados de habilitar o Dependabot e tentará algumas cois
 Você deixará isso como está por um tempo. O Dependabot sugerirá uma correção e você voltará a isso; por enquanto, continue.
 
 ## Exercício 4
+
 Agora você vai experimentar o [Push Protection](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-repositories-and-organizations). Esse recurso é ativado *automaticamente* para repositórios públicos no GitHub.com.
 
 1. Crie um simples [Token de Acesso Pessoal do GitHub (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) para que você tenha um segredo que tentará "push".
@@ -182,6 +190,7 @@ Agora você vai experimentar o [Push Protection](https://docs.github.com/en/ente
 Neste ponto, você usou três ótimos recursos do GHAS: Dependabot, Secret Scanning e Push Protection. Avance para o próximo exercício para usar mais recursos!
 
 ## Exercício 5
+
 Neste exercício, você habilitará o CodeQL em seu repositório para realizar a análise de código.
 
 1.	No seu repositório, selecione a aba **Settings**
@@ -203,6 +212,7 @@ Neste exercício, você habilitará o CodeQL em seu repositório para realizar a
 Agora você pode seguir para verificar os resultados.
 
 ## Exercício 6
+
 Neste exercício, você examinará os resultados da análise de código.
 
 1. Clique no botão **Security** na barra de ferramentas.
@@ -220,6 +230,7 @@ Neste exercício, você examinará os resultados da análise de código.
 Você acabou de executar uma varredura do CodeQL usando as consultas padrão que identificaram vulnerabilidades no código do aplicativo, bem como nas bibliotecas usadas por ele.
 
 ## Exercício 7
+
 Neste último exercício, você corrigirá o maior número possível de erros detectados pelo CodeQL.
 
 1. Clique no botão **<> Code**.
