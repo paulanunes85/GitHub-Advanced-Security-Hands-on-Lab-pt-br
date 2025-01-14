@@ -1,6 +1,7 @@
-![image](https://github.com/octobrian/build2024ghas/assets/54138136/e852de3a-14b9-4f16-922c-4a4165deab63)
+<h1 align="center">GitHub Advanced Security Laboratório Hands-On</h1>
+<h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5>
 
-# Reading Time 6 with GitHub Advanced Security
+# Sobre
 This repo contains a simple .NET 6 version of the 'Reading Time App' (web and unit test projects only). It's configured to be used as the 'sample app' for the Build 2024 GitHub Advanced Security hands-on lab. 
 
 ## GitHub Advanced Security
