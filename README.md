@@ -17,6 +17,7 @@ O GitHub Advanced Security (GHAS) é uma solução de teste de segurança de apl
 - **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot Business ou Enterprise. Inscreva-se para Copilot Free para VS Code apenas para fim de treinamento [Copilot for free para VS Code](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan?view=vs-2022).
 - **Já possuir acesso ou Habilitar GitHub Advanced Security:** [Habilitando a segurança avançada do GitHub](https://resources.github.com/pt-br/learn/pathways/security/essentials/enabling-github-advanced-security/)
 - **Ter acesso a uma organização GitHub com licença do GitHub Advanced Security**
+- **Conhecimento de GitHub Actions e Workflows:** É importante ter um entendimento básico de GitHub Actions e workflows para aproveitar ao máximo o laboratório
 
 ## IA Responsável
 
